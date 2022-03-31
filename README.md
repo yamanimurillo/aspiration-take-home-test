@@ -1,4 +1,4 @@
-# Github Topic Explorer
+# GitHub Topic Explorer
 
 ## General information
 
@@ -31,7 +31,10 @@ Your app is ready to be deployed!
 ## Notes from Yama
 
 1. API KEY for GitHub GraphQL API its on env file. Feel free to use it to test the application.
-2. Implemented a pair of styles components. The search fieldtext and button.
+2. Implemented a pair of styled components. The search fieldtext and button.
 3. Implemented React Apollo to consume GraphQL API.
 4. Implemented some styles via SASS.
 5. Tried to give a decent UI Design.
+
+Bonus:
+App its deployed on Heroku, you can access from your PC/MAC or your mobile device ;)
