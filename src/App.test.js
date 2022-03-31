@@ -1,8 +1,5 @@
 import { render, screen } from '@testing-library/react';
-import App from './App';
+import { ApolloProvider } from 'react-apollo';
+import App from './components/app/App';
+import client from './index'
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
-});
