@@ -9,7 +9,7 @@ const Loader = () => (
         <ThreeDots heigth="100" width="100" color="#014F86" ariaLabel="loading-indicator" />
     </div>);
 
-const Error = () => <div>Error</div>;
+const Error = ({ error }) =>  <div>{error.message.toString()}</div>;
 
 const RelatedTopicsResults = ({ searchTopic, onTopicSelected }) => {
 
@@ -24,8 +24,9 @@ const RelatedTopicsResults = ({ searchTopic, onTopicSelected }) => {
                         <Query query={getTopicQuery} variables={variables}>
                             {
                                 ({ data, loading, error }) => {
+
                                     if (loading) return <Loader></Loader>
-                                    if (error) return <Error></Error>
+                                    if (error) return <Error error={error}></Error>
 
                                     return (
 
