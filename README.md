@@ -38,3 +38,4 @@ Your app is ready to be deployed!
 
 Bonus:
 App its deployed on Heroku, you can access from your PC/MAC or your mobile device ;)
+Just click on: https://aspiration-take-home.herokuapp.com/
