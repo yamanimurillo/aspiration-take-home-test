@@ -3,6 +3,7 @@
 ## General information
 
 This is a ReactJS webapp, and was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Created as a Take Home Test for Aspiration
 
 ## Available Scripts
 
@@ -19,7 +20,7 @@ You may also see any lint errors in the console.
 ### `yarn test`
 
 Launches the test runner in the interactive watch mode.\
-Unfortunately, I'm still learning about Unit Test with Jest, so this section will be unable to run.
+Run basic test for componentent rendering, and mocked provider for Apollo Query.
 
 ### `yarn build`
 
@@ -39,3 +40,9 @@ Your app is ready to be deployed!
 Bonus:
 App its deployed on Heroku, you can access from your PC/MAC or your mobile device ;)
 Just click on: https://aspiration-take-home.herokuapp.com/
+
+## Future Improvements Proposal
+
+1. Add state management, possibly with Redux or ContextAPI.
+2. Add selectors with Reselect.
+
